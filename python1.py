@@ -4,4 +4,4 @@ import pandas as pd
 df=pd.read_csv('flightdelays.csv')
 print(df[df['Origin']=='SFO'][['ArrDelay','Origin']].head(3))
 
-echo"My name is mayank"
+print("My name is mayank")
